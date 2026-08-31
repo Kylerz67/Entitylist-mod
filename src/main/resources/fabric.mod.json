@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "entitylist",
+  "version": "${version}",
+  "name": "Entity List",
+  "description": "Lists all entities in the same chunk as the player",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.example.entitylist.EntityListMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
